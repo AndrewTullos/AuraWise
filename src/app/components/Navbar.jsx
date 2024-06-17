@@ -46,7 +46,7 @@ export default function Example() {
 						<div className="relative flex h-16 justify-between">
 							<div className="relative z-10 flex px-2 lg:px-0">
 								<div className="flex flex-shrink-0 items-center">
-									<a href="./">
+									<a href="https://andrewtullos.github.io/AuraWise/">
 										<Icon />
 									</a>
 								</div>
