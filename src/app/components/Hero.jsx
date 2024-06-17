@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useEffect } from "react";
-
 import { Gradient } from "../../../public/Gradient.js";
 
 const Hero = () => {
@@ -41,7 +40,9 @@ const Hero = () => {
 							<br />
 							Embrace harmony in mind, body, and weather.
 						</p>
-						<button className="btn w-64 rounded-full ">Get Started</button>
+						<a href="/gettingstarted" className="btn w-64 rounded-full ">
+							Get Started
+						</a>
 					</section>
 				</div>
 			</div>
