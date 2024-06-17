@@ -40,7 +40,7 @@ const Hero = () => {
 							<br />
 							Embrace harmony in mind, body, and weather.
 						</p>
-						<a href="/getstarted" className="btn w-64 rounded-full ">
+						<a href="./getstarted" className="btn w-64 rounded-full ">
 							Get Started
 						</a>
 						{/* <button className="btn w-64 rounded-full ">Get Started</button> */}
