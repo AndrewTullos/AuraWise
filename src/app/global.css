@@ -16,14 +16,14 @@
 	}
 }
 
-#gradient-canvas {
+/* #gradient-canvas {
 	width: 100%;
 	height: 100%;
 	--gradient-color-1: #789e71;
 	--gradient-color-2: #e09442;
 	--gradient-color-3: #000000;
 	--gradient-color-4: #e8c949;
-}
+} */
 
 body {
 	margin: 0;
