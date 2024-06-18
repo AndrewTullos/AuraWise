@@ -1,7 +1,9 @@
 "use client";
 import React, { useEffect } from "react";
 import Nav from "../components/Navbar";
-import WeatherBox from "../components/WeatherBox";
+import CityBox from "../components/CityBox";
+import OneDayBox from "../components/OneDayBox";
+import FiveDayBox from "../components/FiveDayBox";
 import { Gradient } from "../../../public/Gradient";
 
 function GetStarted() {
@@ -14,10 +16,17 @@ function GetStarted() {
 		<>
 			<canvas id="gradient-canvas" data-transition-in />
 			<Nav />
+
 			<div className="bg-transparent">
 				<div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
+					<div
+						aria-hidden="true"
+						className="bg-gradient-to-b from-transparent to-black opacity-50"
+					/>
 					<div className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8"></div>
-					<WeatherBox />
+					<OneDayBox />
+					<CityBox />
+					<FiveDayBox />
 				</div>
 			</div>
 		</>
