@@ -6,7 +6,7 @@ const CityBox = () => {
 		<div className="">
 			{/* <!-- Weather GUI Componenet Start --> */}
 			<div className="text-brand-black ">
-				<div className="mt-10 mb-6 w-full max-w-screen-sm p-10 rounded-xl ring-8 ring-white ring-opacity-40 bg-white/50">
+				<div className="mt-10 w-full max-w-screen-sm p-10 rounded-xl ring-8 ring-white ring-opacity-40 bg-white/50">
 					<div className="flex items-end p-6 ">
 						<div className="text-2xl  font-bold">
 							<h3 className="font-semibold text-white">

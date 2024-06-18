@@ -24,7 +24,7 @@ function GetStarted() {
 						aria-hidden="true"
 						className="bg-gradient-to-b from-transparent to-black opacity-50"
 					/>
-					<div className=" grid grid-cols-2 mt-6 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8">
+					<div className=" grid lg:grid-cols-2 mt-6 gap-y-9 lg:gap-8 sm:grid-cols-1 sm:grid-rows-4 sm:gap-x-6 md:grid-cols-2 ">
 						<CityBox />
 						<AuraCard />
 						<OneDayBox />
