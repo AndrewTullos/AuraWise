@@ -35,10 +35,10 @@ const Hero = () => {
 						<p className="py-6 mt-6 mb-6 text-lg leading-8">
 							Welcome to AuraWise, where celestial insights meet daily wellness.
 							<br />
-							Discover your zodiac sign and unique aura, personalized based on
-							today&apos;s weather.
+							Discover your zodiac sign and unique daily aura, personalized &
+							based on today&apos;s weather.
 							<br />
-							Embrace harmony in mind, body, and weather.
+							Embrace harmony in mind, body, and nature.
 						</p>
 						<a href="./getstarted" className="btn w-64 rounded-full ">
 							Get Started
