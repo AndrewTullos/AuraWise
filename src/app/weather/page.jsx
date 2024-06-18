@@ -4,6 +4,7 @@ import Nav from "../components/Navbar";
 import CityBox from "../components/CityBox";
 import OneDayBox from "../components/OneDayBox";
 import FiveDayBox from "../components/FiveDayBox";
+import AuraCard from "../components/AuraCard";
 import { Gradient } from "../../../public/Gradient";
 
 function GetStarted() {
@@ -23,10 +24,13 @@ function GetStarted() {
 						aria-hidden="true"
 						className="bg-gradient-to-b from-transparent to-black opacity-50"
 					/>
-					<div className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8"></div>
-					<OneDayBox />
-					<CityBox />
-					<FiveDayBox />
+					<div className=" grid grid-cols-2 mt-6 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8">
+						<CityBox />
+						<AuraCard />
+						<OneDayBox />
+
+						<FiveDayBox />
+					</div>
 				</div>
 			</div>
 		</>
