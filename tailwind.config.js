@@ -13,6 +13,7 @@ module.exports = {
 					green: "#789e71",
 					yellow: "#e8c949",
 					orange: "#e09442",
+					blue: "#4742e0",
 				},
 				aura: {
 					red: "#FF0000" /* Energy, passion, strength, survival, physical health */,
@@ -39,5 +40,9 @@ module.exports = {
 			},
 		},
 	},
-	plugins: [require("@tailwindcss/forms"), require("daisyui")],
+	plugins: [
+		require("@tailwindcss/forms"),
+		require("daisyui"),
+		require("@tailwindcss/aspect-ratio"),
+	],
 };
