@@ -10,7 +10,7 @@ const Hero = () => {
 	}, []);
 
 	return (
-		<div className="hero mask min-h-screen text-white">
+		<div className="hero mask min-h-screen text-white ">
 			<canvas id="gradient-canvas" data-transition-in />
 
 			<div className="hero-content text-center ">
