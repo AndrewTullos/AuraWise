@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 const CityBox = () => {
 	const cityName = "Austin";
-	const WeatherAPIKey = process.env.NEXT_PUBLIC_API_KEY; // Use NEXT_PUBLIC_API_KEY to expose the API key to the client
+	const WeatherAPIKey = process.env.NEXT_PUBLIC_API_KEY;
 	const [cityInfo, setCityInfo] = useState(null);
 	const [error, setError] = useState(null);
 
