@@ -74,6 +74,7 @@ export default function Example() {
 									</div>
 								</div>
 							</div>
+
 							<div className="relative z-10 flex items-center lg:hidden">
 								{/* Mobile menu button */}
 								<DisclosureButton className="relative inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-gray-700 hover:text-blue focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -86,6 +87,7 @@ export default function Example() {
 									)}
 								</DisclosureButton>
 							</div>
+
 							<div className="hidden lg:relative lg:z-10 lg:ml-4 lg:flex lg:items-center">
 								{/* Notification Icon? */}
 								{/* <button
@@ -141,9 +143,13 @@ export default function Example() {
 								</DisclosureButton>
 							))}
 						</div>
+
 						<div className="border-t border-gray-700 pb-3 pt-4">
 							<div className="flex items-center px-4">
 								<div className="flex-shrink-0">
+									<h1 className="text-1xl font-bold ">
+										<span className="boujee-text">Aura</span>
+									</h1>
 									{/* <img
 										className="h-10 w-10 rounded-full"
 										src={user.imageUrl}
